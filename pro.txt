@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Acerca del Desarrollador</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Gimnasio FitLife</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+                <li><a href="acerca.html">Acerca de...</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Sobre el Desarrollador</h2>
+        <img src="imagenes/tu_foto.jpg" alt="Foto del desarrollador" width="200">
+        <p>Hola, soy [Tu Nombre], estudiante y desarrollador web. Tengo experiencia en HTML, CSS y actualmente me estoy formando en JavaScript y desarrollo frontend. Este sitio fue creado como parte de un proyecto escolar para demostrar habilidades básicas en diseño web.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 FitLife Gym</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+img {
+    border-radius: 10px;
+}

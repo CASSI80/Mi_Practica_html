@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Casandra Gonzalez Vergel">
+    <meta name="date" content= "21-10-25">
+    <meta name="descripcion" content="">
+    <meta name="Keywords" content="">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+     <header>
+        <h1>CasiFit Gym</h1>
+        <img src="logo.jpg"width="100" alt="Imagen del ejemplo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="FormularioCasifit.html">Formulario</a></li>
+                <li><a href="Acerca.html">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Formulario de Registro CasiFit</h2>
+        <form action="#" method="post">
+            <label>Nombre completo:</label>
+            <input type="text" name="nombre" required><br>
+
+            <label>Correo electrónico:</label>
+            <input type="email" name="email" required><br>
+
+            <label>Género:</label><br>
+            <input type="radio" name="genero" value="Masculino"> Masculino
+            <input type="radio" name="genero" value="Femenino"> Femenino
+            <input type="radio" name="genero" value="Otro"> Otro<br><br>
+
+            <label>¿Qué tipo de entrenamiento prefieres?</label><br>
+            <input type="checkbox" name="entrenamiento" value="Cardio"> Cardio<br>
+            <input type="checkbox" name="entrenamiento" value="Pesas"> Pesas<br>
+            <input type="checkbox" name="entrenamiento" value="Crossfit"> Crossfit<br><br>
+
+            <label>Selecciona tu objetivo:</label>
+            <select name="objetivo">
+                <option value="Bajar de peso">Bajar de peso</option>
+                <option value="Ganar músculo">Ganar músculo</option>
+                <option value="Mantener forma">Mantener forma</option>
+            </select><br><br>
+
+            <label>Comentarios:</label><br>
+            <textarea name="comentarios" rows="4" cols="40"></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Cassi</p>
+    </footer>
+</body>
+</html>
+</body>
+</html>
